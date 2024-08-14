@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CandidatesManagement
 {
-    public class Experience : Candidate
+    public class Experience : Candidate // Tạo đối tượng Experience kế thừa từ Candidate
     {
         int ExpInYear;
         string proSkill;
