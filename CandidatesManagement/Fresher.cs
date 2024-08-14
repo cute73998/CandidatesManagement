@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CandidatesManagement
 {
-    public class Fresher : Candidate
+    public class Fresher : Candidate // Tạo đối tượng Fresher
     {
         string graduatedTime;
         string rankOfGraduation;
