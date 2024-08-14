@@ -13,7 +13,10 @@ namespace CandidatesManagement
         List<Fresher> freshers = new List<Fresher>();
         List<Intern> interns = new List<Intern>();
 
-        public void menuMain()
+        public void menuMain() /* Lúc đầu nhét hàm menu vào một class riêng nhưng nếu dùng các phương thức
+        từ 1 đến 4 khi người dùng nhập xong lại gọi menu từ các lớp ngoài hoặc gọi đói tượng menu mới thì 
+        menu sẽ thay mới dẫn đến các list cũng mất sạch dữ liệu dẫn đến nếu truyền dữ liệu vào list sẽ mất hết khi gọi menu như v
+        tôi đã cho menu vào luôn class Controller để gọi this.menuHome luôn để ko mất dữ liệu*/                                
         {
 
             bool check = true;
