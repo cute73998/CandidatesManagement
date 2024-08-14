@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CandidatesManagement
 {
-    public class Intern : Candidate
+    public class Intern : Candidate // Tạo đối tượng Intern kế thừa từ Candidate
     {
         string major;
         int semester;
